@@ -1,0 +1,29 @@
+export LC_CTYPE=ca_ES.UTF-8
+export LC_MESSAGES=ca_ES.UTF-8
+
+# Per al Firefox, perquè xuti amb OpenGL
+export MOZ_ACCELERATED=1
+export MOZ_WEBRENDER=1
+
+# Per a que carregui tots els tipus
+xset fp default 
+for font in /usr/local/share/fonts/* ; do 
+        xset fp+ $font 
+done 
+xset fp rehash 
+
+# copiat de https://github.com/GlennFaustino/OpenBSD/blob/master/.xsession
+
+#xsetroot -solid steelblue &
+#feh --bg-center /home/x220/logo/500px.png &
+#feh --bg-scale /home/x220/logo/windows_xp_bliss-wide.jpg &
+#feh --bg-scale fons/formules.jpg &
+#xstatbar -w 1566 -h 15 &
+#xidle -program '/usr/X11R6/bin/xlock -mode matrix' -timeout 60 &
+#/usr/X11R6/bin/cwm &
+#compton --opacity-rule '60:name="xterm"' &
+#compton -o 0.60 &
+#xconsole -geometry -0-0 -fn 5x7 &
+#xclock -geometry -0+15 
+
+exec ck-launch-session startxfce4
