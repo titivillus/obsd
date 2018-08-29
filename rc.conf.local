@@ -1,0 +1,2 @@
+multicast_host=YES
+pkg_scripts=messagebus avahi_daemon
