@@ -186,7 +186,6 @@ done
 xset fp rehash
  
 xsetroot -solid black &
-urxvt &
 openbox-session
 
 # start some nice programs
