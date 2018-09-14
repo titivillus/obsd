@@ -69,7 +69,6 @@ EOF
 
 ```
 # mkdir -p /etc/X11/xorg.conf.d
-# touch /etc/X11/xorg.conf.d/20-intel.conf
 # cat << 'EOF' > /etc/X11/xorg.conf.d/20-intel.conf
 Section "Device"
         Identifier "Intel Graphics"
