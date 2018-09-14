@@ -3,10 +3,20 @@ Aquest és un repositori particular amb algunes anotacions per a la instal·laci
 
 ```
 # echo 'https://ftp.hostserver.de/pub/OpenBSD/' > /etc/installurl
+# syspatch
+# shutdown -r now
 ```
 
 ```
-# echo 'permit nopass :wheel as root' > /etc/doas.conf                                               
+# echo 'permit nopass :wheel as root' > /etc/doas.conf
+# doas pkg_add nano firefox-i18n-ca
+[...]
+# ln -sf /usr/local/bin/python2.7 /usr/local/bin/python
+# ln -sf /usr/local/bin/python2.7-2to3 /usr/local/bin/2to3
+# ln -sf /usr/local/bin/python2.7-config /usr/local/bin/python-config
+# ln -sf /usr/local/bin/pydoc2.7  /usr/local/bin/pydoc
+# rcctl enable messagebus
+# rcctl start messagebus
 ```
 
 Probarem amb "2"
