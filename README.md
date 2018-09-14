@@ -63,7 +63,7 @@ EOF
 # cat << 'EOF' > /etc/hostname.trunk0
 trunkproto failover trunkport em0
 trunkport iwm0
-dhcpd
+dhcp
 EOF
 ```
 
