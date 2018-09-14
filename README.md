@@ -79,7 +79,7 @@ EOF
 
 Instal·laré alguna cosa per anar fent...
 
-`# pkg_add nano openbox rxvt-unicode inconsolata-font firefox-i18n-ca mozilla-dicts-ca thunar thunar-archive thunar-media-tags geany`
+`# pkg_add openbox rxvt-unicode inconsolata-font mozilla-dicts-ca thunar thunar-archive thunar-media-tags geany`
 
 Configuració d' rc.conf.local:
 
