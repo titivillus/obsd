@@ -202,3 +202,7 @@ if [ "$SSH_AGENT_PID" ]; then
 fi
 EOF
 ```
+
+```
+$ cp -R /etc/xdg/openbox .config/
+```
