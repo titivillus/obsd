@@ -66,6 +66,7 @@ trunkport iwm0
 dhcp
 EOF
 ```
+De moment no instal·lo els drivers Intel car sembla que tenen un pitjor rendiment, però en cas de necessitar-ho:
 
 ```
 # mkdir -p /etc/X11/xorg.conf.d
