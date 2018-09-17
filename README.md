@@ -53,7 +53,7 @@ Seguim...
    
 # cat << 'EOF' > /etc/hostname.iwm0
 nwid Papageno
-wpakey XusHECafmFDCxYQNpNEd
+wpakey ************
 up
 EOF
 
