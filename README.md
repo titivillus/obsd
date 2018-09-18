@@ -86,6 +86,13 @@ Configuració d' rc.conf.local:
 
 `# rcctl enable multicast messagebus avahi_daemon`
 
+Per a no tenir problemes amb X quan no hi ha bona connexió a Internet... o quan no es pot resoldre el `$(hostname), a `/etc/hosts` hi incloc
+
+```
+127.0.0.1	prometeu.domini.cat	prometeu
+::1		prometeu.domini.cat     prometeu
+```
+
 ### Com a usuari...
 
 Al directori d'usuari:
