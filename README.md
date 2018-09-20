@@ -80,7 +80,7 @@ EOF
 
 Instal·laré alguna cosa per anar fent...
 
-`# pkg_add openbox obconf rxvt-unicode inconsolata-font mozilla-dicts-ca thunar thunar-archive thunar-media-tags geany feh compton numlockx xdg-user-dirs-gtk ffmpeg `
+`# pkg_add openbox obconf rxvt-unicode inconsolata-font mozilla-dicts-ca thunar thunar-archive thunar-media-tags geany feh compton numlockx xdg-user-dirs-gtk ffmpeg evince shotwell audacious audacious-plugins libreoffice`
 
 Configuració d' rc.conf.local:
 
