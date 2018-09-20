@@ -186,6 +186,11 @@ export LC_CTYPE=ca_ES.UTF-8
 export LC_MESSAGES=ca_ES.UTF-8
 export MOZ_ACCELERATED=1
 
+# Que arranqui dbus: paperera i altres
+if [ -x /usr/local/bin/dbus-launch -a -z "${DBUS_SESSION_BUS_ADDRESS}" ]; then
+	eval `dbus-launch --sh-syntax --exit-with-session`
+fi
+
 # Per a que carregui tots els tipus
 xset fp default 
 for font in /usr/local/share/fonts/* ; do 
