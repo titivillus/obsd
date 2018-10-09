@@ -8,7 +8,7 @@ sudo qemu-system-x86_64 -L . -curses -drive file=miniroot63.fs -drive file=/dev/
 ```
 -cpu host
 ```
-````
+```
 qemu-system-x86_64 -L .	-boot d \
 	 		-k es \
 			-cpu host \
