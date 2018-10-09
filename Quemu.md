@@ -18,5 +18,5 @@ qemu-system-x86_64 -L .	-boot d \
  			-drive file=/dev/sda \
  			-net nic \
 			-net user
-      ```
+```
 En comptes de `-curses` -> `-nographic` i per sortir Ctr-A després X
