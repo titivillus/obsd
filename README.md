@@ -218,3 +218,8 @@ EOF
 ```
 $ cp -R /etc/xdg/openbox .config/
 ```
+
+````
+mem_total=$(($(sysctl -n hw.physmem) / 1024 / 1024))
+mem_lliure=$(($(vmstat | awk 'END { printf $4 }' | sed 's/M//g')))
+mem=$(awk -v mt=${mem_total} -v ml=${mem_lliure} 'BEGIN { k=(( mt - ml ) * 100 / mt ); printf "%.2f", k}')
